@@ -276,7 +276,7 @@ Module PredatorPrey
                         FoodConsumed = Landscape(WarrenX, WarrenY).Warren.EatRabbits(RabbitsToEat)
                         Landscape(FoxX, FoxY).Fox.GiveFood(FoodConsumed)
                         If ShowDetail Then
-                            Console.WriteLine("  " & FoodConsumed & " rabbits eaten by fox at (" & FoxX & "," & FoxY & ").")
+                            Console.WriteLine("  " & FoodConsumed & " rabbits munched by fox at (" & FoxX & "," & FoxY & ").")
                         End If
                     End If
                 Next
