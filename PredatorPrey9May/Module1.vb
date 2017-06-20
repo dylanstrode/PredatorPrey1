@@ -82,6 +82,7 @@ Module PredatorPrey
                 Console.WriteLine("3. Inspect fox")
                 Console.WriteLine("4. Inspect warren")
                 Console.WriteLine("5. Exit")
+                Console.WriteLine("6. Another menu item")
                 Console.WriteLine()
                 Console.Write("Select option: ")
                 MenuOption = CInt(Console.ReadLine())
